@@ -31,7 +31,7 @@ export default function AboutSection() {
           </p>
           <p className="mt-6 italic text-gray-700 text-md sm:text-lg">
             Com anos de experiência e muita paixão pela música,<br className="hidden sm:inline" />
-            transformamos aprendizado em diversão e evolução real.
+            transformamos aprendizado em evolução real.
           </p>
         </motion.div>
 
