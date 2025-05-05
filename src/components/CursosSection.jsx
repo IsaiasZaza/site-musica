@@ -1,11 +1,12 @@
 import { FaKeyboard, FaGuitar, FaFilePdf, FaCalendarCheck } from 'react-icons/fa';
+import { LuKeyboardMusic } from "react-icons/lu";
 import { motion } from 'framer-motion';
 
 export default function CursosSection() {
   const courses = [
     {
       title: 'Curso de Teclado',
-      icon: <FaKeyboard className="text-5xl text-indigo-400 mb-6" />,
+      icon: <LuKeyboardMusic  className="text-5xl text-indigo-400 mb-6" />,
       description: 'Aprenda escalas, acordes e técnicas do teclado do zero.',
       level: 'Iniciante a Intermediário',
       link: '/teclado',
@@ -66,7 +67,7 @@ export default function CursosSection() {
             </div>
 
             <a
-              href="https://api.whatsapp.com/send/?phone=5561986183812&text&type=phone_number&app_absent=0"
+              href="https://wa.me/5562991670219?text=Ol%C3%A1%21%20%F0%9F%98%8A%0AGostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20aulas%20Hybrid.%20Pode%20me%20ajudar%2C%20por%20favor%3F"
               className="inline-block px-6 py-2 text-white bg-indigo-600 rounded-xl font-semibold hover:bg-indigo-500 transition"
               target="_blank"
               rel="noopener noreferrer"
